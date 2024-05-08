@@ -20,7 +20,7 @@
 
 <!-- TODO: Change the Keziah Unki into your github username  -->
 <!-- TODO: Change the WD-Seatwork-2-TX03 into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=KeziahUnki/WD-Seatwork-2-TX03)
 
 ---
 
