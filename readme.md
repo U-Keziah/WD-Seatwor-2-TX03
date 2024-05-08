@@ -9,17 +9,17 @@
     <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Seatwork 2</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  Wireframe of a Website
 </div>
 
 <br />
 
-<!-- TODO: Change the zyx-0314 into your github username  -->
-<!-- TODO: Change the WD-Template-Project into the same name of your folder -->
+<!-- TODO: Change the Keziah Unki into your github username  -->
+<!-- TODO: Change the WD-Seatwork-2-TX03 into the same name of your folder -->
 ![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
 
 ---
