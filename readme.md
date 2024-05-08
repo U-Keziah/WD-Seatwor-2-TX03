@@ -117,5 +117,5 @@ WD-ProjectName
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
 
 ## Documents
-<embed src="Wireframe.pdf" type="application/pdf">
+<embed src="assets/docs/Wireframe.pdf" type="application/pdf" width = "100" height = "100">
 
