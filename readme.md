@@ -48,6 +48,9 @@
     <li>
       <a href="#resources">Resources</a>
     </li>
+    <li>
+      <a href="#resources">Documents</a>
+    </li>
   </ol>
 </details>
 
@@ -112,3 +115,7 @@ WD-ProjectName
 | Title | Purpose | Link |
 |-|-|-|
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+
+## Documents
+<input type="pdf" name="Wireframe">
+
