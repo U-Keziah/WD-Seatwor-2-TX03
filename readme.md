@@ -49,7 +49,7 @@
       <a href="#resources">Resources</a>
     </li>
     <li>
-      <a href="#resources">Documents</a>
+      <a href="#documents">Documents</a>
     </li>
   </ol>
 </details>
@@ -117,5 +117,5 @@ WD-ProjectName
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
 
 ## Documents
-<input type="pdf" name="Wireframe">
+<embed src="assets/docs/Wireframe.pdf" type="application/pdf">
 
