@@ -6,8 +6,22 @@
 }
 
 nav{
-    height: 80%;
-    background: plum;
+    height: 100px;
+    background: rgb(214, 129, 164);
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: beige;
+    font-size: 4rem;
+    font-weight: bold;
+    padding: 0 2rem;
+}
+
+nav a {
+    text-decoration: wavy;
+    color:bisque;
+    padding: 0 1.5rem;
 }
