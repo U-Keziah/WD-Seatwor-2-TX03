@@ -3,11 +3,13 @@
     margin: 0;
     padding: 0;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
 }
+
 
 nav{
     height: 100px;
-    background: rgb(214, 129, 164);
+    background: #A66D76;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,4 +26,36 @@ nav a {
     text-decoration: wavy;
     color:bisque;
     padding: 0 1.5rem;
+}
+
+.hero-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 95vh;
+    padding: 3rem
+}
+
+.column-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0rem 2rem;
+    
+}
+
+.column-left h1 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+
+
+.column-right {
+
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    background: pink;
+
 }
