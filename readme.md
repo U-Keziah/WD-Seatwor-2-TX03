@@ -114,7 +114,7 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Sample Title | Sample purpose would be here like this and this is the example of what it is. | https://youtu.be/VegDvRLVlOI?si=i72nydLm9m0SF3Hm |
 
 ## Documents
 <embed src="assets/docs/Wireframe.pdf" type="application/pdf" width = "100" height = "100">
