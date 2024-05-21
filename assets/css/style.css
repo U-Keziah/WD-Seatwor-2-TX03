@@ -29,6 +29,9 @@ nav a {
     padding: 0 3rem;
 }
 
+
+/* Profile */
+
 section {
     padding-top: 4vh;
     height: 96vh;
@@ -85,6 +88,33 @@ section {
 .section_text_p2 {
     text-align: center;
     font-size: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+}
 
+.footer_container {
+    position: absolute;
+    bottom: 0%;
+    right: 42%;    
+    border-radius: 50rem;
+    background-color: beige;
+   
+}
+
+.footer_container p {
+    font-size: 50px;
+    margin: 10rem;
+}
+
+/* About */
+
+.about_image_container {
+
+    display: flex;
+    height: 300px;
+    width: 300px;
+    margin: auto 0;
+}
+
+.about_image_container img{
+    border-radius: 50rem;
 }
