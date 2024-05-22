@@ -5,6 +5,10 @@
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 nav {
   height: 100px;
   display: flex;
@@ -17,7 +21,6 @@ nav {
   color: beige;
   font-size: 2rem;
   font-weight: bold;
-  padding: 0 2rem;
   text-decoration: dotted;
 }
 
@@ -38,15 +41,15 @@ section {
 #profile {
   display: flex;
   justify-content: center;
-  gap: 5rem;
+  gap: 3rem;
   height: 70vh;
-  background: linear-gradient(#a66d76 80%, black 20%);
+  background: linear-gradient(#a66d76 90%, black 10%);
 }
 
 .image_container {
   display: flex;
-  height: 300px;
-  width: 300px;
+  height: 350px;
+  width: 350px;
   margin: auto 0;
 }
 
@@ -137,10 +140,10 @@ section {
   min-height: fit-content;
 }
 
-#about {
+#About {
   display: flex;
   justify-content: center;
-  gap: 5rem;
+  gap: 3rem;
   height: 70vh;
   background: linear-gradient(#fff6f6 80%, black 20%);
 }
@@ -148,11 +151,7 @@ section {
 .about_text_container {
   align-self: center;
   text-align: center;
-}
-
-.about_text_p {
-  display: flex;
-  text-align: left;
+  margin: 0 3rem;
 }
 
 .about_text_container h1 {
@@ -161,45 +160,53 @@ section {
   margin-bottom: 1rem;
 }
 
-
-
-
-
 .about_text_p1 {
-  text-align: center;
+  text-align: justify;
   font-size: 2rem;
   margin-bottom: 2rem;
 }
 
 .about_image_container {
-    display: flex;
-    height: 400px;
-    width: 300px;
-    margin: auto 0;
-  }
-
+  display: flex;
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
 
 .about_image_container img {
   border-radius: 10rem;
 }
 
 .Birthday_container {
-  position: absolute;
-  top: 100px;
-  right: 0%;
-  width: 1003px;
-  height: 532px;
-  
+  position: static;
+  top: 50px;
+  right: 100%;
+  z-index: 1;
 }
 
-.rectangle {
+.Birthday_rectangle {
   height: 50px;
   width: 100px;
   background-color: #555;
 }
 
-.Birthday p {
+.Birthday_container p {
   text-align: center;
   font-size: 15px;
 }
 
+.Filipino_container {
+  position: absolute;
+  bottom: 50px;
+}
+
+.Filipino_rectangle {
+  height: 50px;
+  width: 100px;
+  background-color: pink;
+}
+
+.Filipino_container p {
+  text-align: center;
+  font-size: 15px;
+}
