@@ -35,7 +35,6 @@ nav a {
 section {
     box-sizing:content-box;
     min-height: fit-content;
-
 }
     
 
@@ -43,8 +42,8 @@ section {
     display: flex;
     justify-content: center;
     gap: 5rem;
-    height: 60vh;
-    background: #A66D76;
+    height: 70vh;
+     background: linear-gradient(#A66D76 80%, black 20%);
 
 }
 
@@ -93,10 +92,10 @@ section {
 .Scroll_Down {   
     display: flex;
     width: 100vw;
-    height: 100px;
+    height: 120px;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(#A66D76 50%, black 50%);
+    background: linear-gradient(black 50%, #FFF6F6 50%);
 }
 
 .circle {
@@ -117,8 +116,24 @@ section {
 /* About */
 
 .About_me{
-   position: static;;
+   position: static;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFF6F6;
 } 
+
+
+#About_me {
+
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 70vh;
+    background: linear-gradient(#A66D76 80%, black 20%);
+
+}
 
 .logo {
     color: beige;
@@ -131,17 +146,19 @@ section {
 nav a {
     text-decoration: wavy;
     font-size: 25px;
-    color:bisque;
+    color:black;
     padding: 0 3rem;
 }
 
 .about_image_container {
     display: flex;
+    justify-content: right;
     height: 300px;
-    width: 300px;
+    width: 100vw;
     margin: auto 0;
 }
 
 .about_image_container img{
     border-radius: 50rem;
+    background-color: ;#FFF6F6;
 }
