@@ -143,7 +143,7 @@ section {
 #About {
   display: flex;
   justify-content: center;
-  gap: 3rem;
+  gap: 2rem;
   height: 70vh;
   background: linear-gradient(#fff6f6 80%, black 20%);
 }
@@ -170,21 +170,22 @@ section {
   display: flex;
   height: 400px;
   width: 400px;
-  margin: auto 0;
+  justify-content: left;
 }
 
 .about_image_container img {
   border-radius: 10rem;
 }
 
-.Birthday_container {
-  position: static;
-  top: 50px;
-  right: 100%;
-  z-index: 1;
+.about_image_container Birthday_container {
+  position: absolute;
+  top:50%;
+  left:0%;
 }
 
 .Birthday_rectangle {
+  position: absolute;
+  left: 60%;
   height: 50px;
   width: 100px;
   background-color: #555;
@@ -195,12 +196,17 @@ section {
   font-size: 15px;
 }
 
-.Filipino_container {
+.about_image_container Filipino_container {
+  display: flex;
   position: absolute;
+  justify-content: right;
   bottom: 50px;
 }
 
+
 .Filipino_rectangle {
+  position: absolute;
+  right: 0%;
   height: 50px;
   width: 100px;
   background-color: pink;

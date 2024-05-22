@@ -4,28 +4,23 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/U-Keziah">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9XrqbVocBbrLpYpv7KNhaqfRMzJIpWjSzueEyjIF4IJ00usLS_F3OJxBNRg3shTRhpjQ1ViT4653isW57pJXUuwl4Pg-i1BFD5GpqLEZQiqVP3Oj-LBOOY-VuG8OvX5xbl7xB3nfIjqdByRQCRAdstoPCH7m6KNreigCvta6ehA9uXGxj0Qq5h3mH/s736/marin%201st.jpg" alt="Marin_Katigawa" width="200" height="200">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Seatwork 2</h3>
+  <h3 align="center">Resume SW2</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Wireframe of a Website
+  This is my Portfolio for people to know more about me from my education background to my hobbies.
 </div>
 
 <br />
 
-<!-- TODO: Change the Keziah Unki into your github username  -->
-<!-- TODO: Change the WD-Seatwork-2-TX03 into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=KeziahUnki/WD-Seatwork-2-TX03)
+![](https://visit-counter.vercel.app/counter.png?page=U-Keziah/WD-Seatwork-2-TX03)
 
 ---
-
-<br />
-<br />
 
 <!-- TODO: If you want to add more layers for your readme -->
 <details>
@@ -62,18 +57,15 @@
 <!-- The following are just sample -->
 Description of the project in details.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+- We are assign to make a portfolio to compile our works so that people can see our works. This project will also serve me as my motivation as I can see my improvement in HTML coding in VSCODE.  
+
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- Single Page Website
+- Smooth transition
+
 
 ### Technology
 <!-- TODO: List of Technology Used -->
