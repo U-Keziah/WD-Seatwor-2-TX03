@@ -143,9 +143,9 @@ section {
 #About {
   display: flex;
   justify-content: center;
+  height: 100vh;
   gap: 2rem;
-  height: 70vh;
-  background: linear-gradient(#fff6f6 80%, black 20%);
+  background-color: #fff6f6;
 }
 
 .about_text_container {
@@ -155,64 +155,97 @@ section {
 }
 
 .about_text_container h1 {
-  font-size: 3rem;
+  font-size: 7rem;
   text-align: left;
   margin-bottom: 1rem;
 }
 
 .about_text_p1 {
   text-align: justify;
-  font-size: 2rem;
+  font-family: fangsong;
+  font-size: 25px;
   margin-bottom: 2rem;
 }
 
+
 .about_image_container {
+  margin: 1rem;
   display: flex;
-  height: 400px;
-  width: 400px;
-  justify-content: left;
+  justify-content: center;
+  height: 600px; 
+  width: 500px;
 }
 
 .about_image_container img {
   border-radius: 10rem;
 }
 
-.about_image_container Birthday_container {
+.github_profile_button {
+  padding: 15px 45px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.github_profile_button:hover {background-color: #3e8e41}
+
+.github_profile_button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.Container_Floating_1{
+
   position: absolute;
-  top:50%;
-  left:0%;
+  display: flex;
+  left: 65%;
+  bottom: -40%;
+  justify-content: left;
+  z-index: 10;
+  
 }
 
 .Birthday_rectangle {
-  position: absolute;
-  left: 60%;
+ 
   height: 50px;
-  width: 100px;
+  width: 150px;
   background-color: #555;
+
 }
 
-.Birthday_container p {
+
+.Birthday_rectangle p {
   text-align: center;
   font-size: 15px;
 }
 
-.about_image_container Filipino_container {
-  display: flex;
+.Container_Floating_2{
+
   position: absolute;
+  display: flex;
+  right: 1.5%;
+  bottom: -50%;
   justify-content: right;
-  bottom: 50px;
+  z-index: 10;
+  
 }
 
 
 .Filipino_rectangle {
-  position: absolute;
-  right: 0%;
+
   height: 50px;
-  width: 100px;
+  width: 150px;
   background-color: pink;
 }
 
-.Filipino_container p {
+.Filipino_rectangle p {
   text-align: center;
   font-size: 15px;
 }
