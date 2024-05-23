@@ -214,12 +214,12 @@ section {
 
 .Birthday_rectangle {
  
-  height: 50px;
-  width: 150px;
+  height: 60px;
+  width: 200px;
   background-color: #555;
+  border-radius: 50px;
 
 }
-
 
 .Birthday_rectangle p {
   text-align: center;
@@ -237,15 +237,35 @@ section {
   
 }
 
-
 .Filipino_rectangle {
 
   height: 50px;
   width: 150px;
   background-color: pink;
+  border-radius: 50px;
 }
 
 .Filipino_rectangle p {
+  text-align: center;
+  font-size: 15px;
+}
+
+
+.contact_container {
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  width: 500px;  
+}
+
+.Contact_rectangle {
+  height: 100px;
+  width: 300px;
+  background-color: #555;
+  border-radius: 50px;
+}
+
+.Contact_rectangle p {
   text-align: center;
   font-size: 15px;
 }
