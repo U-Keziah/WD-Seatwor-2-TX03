@@ -108,7 +108,6 @@ WD-ProjectName
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | https://youtu.be/VegDvRLVlOI?si=i72nydLm9m0SF3Hm |
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. |https://www.w3schools.com/howto/howto_css_icon_bar.asp |
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. |https://www.youtube.com/watch?v=ldwlOzRvYOU |
+| Sample Title | Sample purpose would be here like this and this is the example of what it is. |https://www.youtube.com/watch?v=McPdzhLRzCg |
 
-## Documents
-<embed src="assets/docs/Wireframe.pdf" type="application/pdf" width = "100" height = "100">
 
