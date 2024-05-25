@@ -61,10 +61,11 @@ Description of the project in details.
 
 
 ### Key Components
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
 - Single Page Website
 - Smooth transition
+- Gallery
+
+
 
 
 ### Technology
@@ -105,9 +106,9 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | https://youtu.be/VegDvRLVlOI?si=i72nydLm9m0SF3Hm |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. |https://www.w3schools.com/howto/howto_css_icon_bar.asp |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. |https://www.youtube.com/watch?v=ldwlOzRvYOU |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. |https://www.youtube.com/watch?v=McPdzhLRzCg |
+| I Built a Website in 10 Minutes using HTML & CSS | I used this to understand how HTML and style css can combine | https://youtu.be/VegDvRLVlOI?si=i72nydLm9m0SF3Hm |
+| w3school How TO | A good website to learn what functions and elements does, I also use this website to copy the button and gallery |https://www.w3schools.com/howto/howto_css_icon_bar.asp |
+|  Responsive Portfolio Website From Scratch  | To get started in coding I use this format in the Homepage |https://www.youtube.com/watch?v=ldwlOzRvYOU |
+| HTML and CSS Project Tutorial: Pure CSS Image Slider | I use this for my gallery in ExtraA | https://www.youtube.com/watch?v=McPdzhLRzCg |
 
 

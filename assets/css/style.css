@@ -40,14 +40,14 @@ section {
 #profile {
   display: flex;
   justify-content: center;
-  gap: 3rem;
+  gap: 8rem;
   height: 70vh;
-  background: linear-gradient(#a66d76 90%, black 10%);
+  background: linear-gradient(#a66d76 80%, black 20%);
 }
 
 .imageContainer {
   display: flex;
-  height: 350px;
+  height: 400px;
   width: 350px;
   margin: auto 0;
 }
@@ -61,25 +61,29 @@ section {
   text-align: center;
 }
 
+.textContainer h1 {
+
+  font-family: Playfair Display;
+  font-size: 5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
 .section_text_p {
+  font-family: fangsong;
   display: flex;
   text-align: center;
 }
 
 .section_text_p1 {
+  font-family: fangsong;
   text-align: center;
   font-size: 1.75rem;
-  margin-bottom: 1rem;
-  
-}
-
-.textContainer h1 {
-  font-size: 3rem;
-  text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 1rem; 
 }
 
 .sectionTextp2 {
+  font-family: fangsong;
   text-align: center;
   font-size: 2rem;
   margin-bottom: 2rem;
@@ -87,17 +91,16 @@ section {
 
 .Scroll_Down {
   display: flex;
-  width: 100vw;
   height: 120px;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(black 50%, #fff6f6 50%);
+  background: linear-gradient(black 40%, #fff6f6 50%);
 }
 
 .circle {
   display: flex;
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
   background-color: #aedefc;
   border-radius: 50%;
   align-items: center;
@@ -141,12 +144,11 @@ section {
 }
 
 #About_Page {
-  height: 700px;
+  height: 400px;
 }
 
 #About {
   display: flex;
-  height: 70vh;
   gap: 3rem;
   background-color: #fff6f6;
   margin-bottom: 0 3rem;
@@ -193,7 +195,7 @@ section {
   cursor: pointer;
   outline: none;
   color: #fff;
-  background-color: #04aa6d;
+  background-color: #aedefc;
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
@@ -205,12 +207,12 @@ section {
 }
 
 .github_profile_button:hover {
-  background-color: #3e8e41;
+  background-color: #80a5bc
   
 }
 
 .github_profile_button:active {
-  background-color: #3e8e41;
+  background-color: #80a5bc;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
   
@@ -220,7 +222,7 @@ section {
   position: absolute;
   display: flex;
   left: 65%;
-  bottom: -40%;
+  bottom: -30%;
   justify-content: left;
   z-index: 10;
 }
@@ -228,7 +230,8 @@ section {
 .Birthday_rectangle {
   height: 60px;
   width: 200px;
-  background-color: yellow;
+  background-color: #aedefc;
+  color: white;
   border-radius: 50px;
 }
 
@@ -242,7 +245,7 @@ section {
   position: absolute;
   display: flex;
   right: 1.5%;
-  bottom: -50%;
+  bottom: -55%;
   justify-content: right;
   z-index: 10;
 }
@@ -250,7 +253,8 @@ section {
 .Filipino_rectangle {
   height: 50px;
   width: 150px;
-  background-color: pink;
+  color: white;
+  background-color: #aedefc;
   border-radius: 50px;
 }
 
@@ -271,9 +275,9 @@ section {
 .Contact_rectangle {
   position: absolute;
   bottom: -90%;
-  height: 200px;
+  height: 230px;
   width: 300px;
-  background-color: #555;
+  background-color: #F5DD61;
   padding: 35px;
   z-index: 10;
 }
@@ -282,20 +286,21 @@ section {
   padding: 1px;
   text-align: center;
   font-size: 50px;
-  color: #fff6f6;
+  color: black;
+  font-family:  Playfair Display ;
 }
 
 .Contact_rectangle p {
   text-align: center;
   padding-top: 10px;
-  font-size: 15px;
+  font-size: 25px;
   font: fangsong;
-  color: #fff6f6;
+  color: black;
+  font-family: fangsong;
 }
 
 .RESUME_cut {
   display: flex;
-  width: 98vw;
   height: 12vw;  
   justify-content: right;
   background: linear-gradient(#fff6f6 85%, #a66d76 35%);
@@ -304,36 +309,40 @@ section {
 .RESUME_cut h1 {
   text-align: right;
   padding-top: 5rem;
-
+  padding-right: 3rem;
   font-size: 8rem;
   color: yellow;
+  letter-spacing: 10px;
 }
 
 #About_2 {
   display: flex;
   justify-content: space-between;
-  height: 100vh;
-  width: 98vw;
-  gap: 2.5rem;
+  height: 85vh;
+  gap: 1rem;
   background-color: #a66d76;
 }
 
 .Resume_Bg {
+
   display: flex;
   justify-content: right;
   padding-right: 5px;
+  height: 100vw;
 
 }
 
 .Resume_Bg h1 {
-  padding-top:5rem;
+  padding-top: 3rem;
+  padding-right: 3rem;
   font-size: 8rem;
   color: yellow;
+  letter-spacing: 10px;
+
 }
 
 .Education {
-  width: 95vw;
-  justify-content: left;
+    justify-content: left;
 }
 
 .Education h1 {
@@ -346,7 +355,7 @@ section {
 .Education_Year_p1 {
   color: #fff6f6;
   font-size: 45px;
-  padding-left: 50px;
+  margin-left: 80px;
   padding-top: 1rem;
 }
 
@@ -355,53 +364,105 @@ section {
   font-family: fangsong;
   font-size: 25px;
   padding-left: 300px;
+  padding-bottom: 2rem;
+}
+
+.about_3{
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #a66d76;
 }
 
 .technicalSkill {
-  position: absolute;
-  right: 5%;
-  top: 290%;
-  height: 20vw;
-  width: 30vw;
+  justify-content: center;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  height: 25vw;
+  width: 450px;
   background-color: yellow;
 }
 
 .technicalSkill h1 {
+  
+  font-size: 25px;
+  text-align: center;
+}
 
-
-
+.technicalSkill p {
+  text-align:center;
+  padding: 30px;
 }
 
 
-#gallery {
-  height: 200vh;
+.languages {
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+  height: 25vw; 
+   width: 450px;
+  background-color: yellow;
+}
+
+.languages h1 {
+  padding-top: 5rem;
+  font-size: 25px;
+  text-align: center;
+}
+
+.languages p {
+  text-align:center;
+  padding: 25px;
+}
+
+
+
+#gallery{
+  display: flex;
+  flex-direction: column;
+  height: 120vh;
   gap: 3rem;
   background-color: #fff6f6;
   margin-bottom: 0 3rem;
 }
 
-.galleryEducation {
+.gallery-text-education h1 {
+
+padding: 5rem;
+text-align: center;
+font-size: 50px;
+color:#a66d76;
+}
+
+.gallery-text-education p {
+
+  text-align: center;
+  font-size: 25px;
+  color:#a66d76;
+  }
   
-  display: flex;
-  justify-content: right;
-  max-width: 50rem;
-  margin: 0 auto;
-  padding: 10px;
+
+.galleryEducation {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 35rem;
 }
 
-.Education-scroll-container  {
-  display: flex;
-  aspect-ratio: 16/9;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
-  border-radius: 0.5rem;
+.galleryEducation:hover {
+  border: 1px solid #777;
 }
 
-.Education-scroll-container img{
-  flex: 1 0 100%;
-  scroll-snap-align: start ;
-  object-fit: cover;
+.galleryEducation img{
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
 }
 
 #extraA {
