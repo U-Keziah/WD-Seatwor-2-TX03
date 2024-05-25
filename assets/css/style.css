@@ -16,18 +16,31 @@ nav {
   background: #a66d76;
 }
 
-.logo {
-  color: beige;
-  font-size: 2rem;
-  font-weight: bold;
-  text-decoration: dotted;
+.logo img{
+  height: 100px;
+  width: 100px;
+  padding: 10px;
 }
+
+.logoColored img{
+  height: 100px;
+  width: 100px;
+ padding: 10px;
+}
+
 
 nav a {
   text-decoration: wavy;
   font-size: 25px;
-  color: bisque;
   padding: 0 3rem;
+}
+
+nav a:hover{
+  text-decoration: wavy;
+  font-size: 30px;
+  color: bisque;
+
+  
 }
 
 /* Profile */
@@ -79,7 +92,7 @@ section {
   font-family: fangsong;
   text-align: center;
   font-size: 1.75rem;
-  margin-bottom: 1rem; 
+  margin-bottom: 5rem; 
 }
 
 .sectionTextp2 {
@@ -96,6 +109,10 @@ section {
   align-items: center;
   background: linear-gradient(black 40%, #fff6f6 50%);
 }
+.Scroll_Down a{
+  text-decoration: none;
+  color: black;
+}
 
 .circle {
   display: flex;
@@ -105,11 +122,14 @@ section {
   border-radius: 50%;
   align-items: center;
   justify-content: center;
+
 }
 
 .Scroll_Down p {
   text-align: center;
   font-size: 20px;
+ 
+
 }
 
 /* About */
@@ -138,20 +158,16 @@ nav a {
   padding: 0 3rem;
 }
 
-section {
-  box-sizing: content-box;
-  min-height: fit-content;
-}
-
-#About_Page {
-  height: 400px;
+#aboutPage {
+  height: 95vw;
+  background-color: #a66d76;
 }
 
 #About {
   display: flex;
   gap: 3rem;
-  background-color: #fff6f6;
-  margin-bottom: 0 3rem;
+  justify-content: space-around;
+  background: linear-gradient(#fff6f6 70%, #a66d76 100%);
 }
 
 .about_text_container {
@@ -195,7 +211,7 @@ section {
   cursor: pointer;
   outline: none;
   color: #fff;
-  background-color: #aedefc;
+  background-color: #FAA300;
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
@@ -207,12 +223,12 @@ section {
 }
 
 .github_profile_button:hover {
-  background-color: #80a5bc
+  background-color: #ac7611
   
 }
 
 .github_profile_button:active {
-  background-color: #80a5bc;
+  background-color: #ac7611;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
   
@@ -229,7 +245,7 @@ section {
 
 .Birthday_rectangle {
   height: 60px;
-  width: 200px;
+  width: 250px;
   background-color: #aedefc;
   color: white;
   border-radius: 50px;
@@ -237,14 +253,14 @@ section {
 
 .Birthday_rectangle p {
   text-align: center;
-  font-size: 15px;
+  font-size: 20px;
   padding: 1rem;
 }
 
 .Container_Floating_2 {
   position: absolute;
   display: flex;
-  right: 1.5%;
+  right: 0%;
   bottom: -55%;
   justify-content: right;
   z-index: 10;
@@ -252,7 +268,7 @@ section {
 
 .Filipino_rectangle {
   height: 50px;
-  width: 150px;
+  width: 200px;
   color: white;
   background-color: #aedefc;
   border-radius: 50px;
@@ -260,7 +276,7 @@ section {
 
 .Filipino_rectangle p {
   text-align: center;
-  font-size: 15px;
+  font-size: 20px;
   padding: 1rem;
 }
 
@@ -277,7 +293,7 @@ section {
   bottom: -90%;
   height: 230px;
   width: 300px;
-  background-color: #F5DD61;
+  background-color: black;
   padding: 35px;
   z-index: 10;
 }
@@ -286,7 +302,7 @@ section {
   padding: 1px;
   text-align: center;
   font-size: 50px;
-  color: black;
+  color: white;
   font-family:  Playfair Display ;
 }
 
@@ -295,23 +311,29 @@ section {
   padding-top: 10px;
   font-size: 25px;
   font: fangsong;
-  color: black;
+  color: white;
   font-family: fangsong;
 }
 
 .RESUME_cut {
   display: flex;
   height: 12vw;  
+  padding-top:2rem;
   justify-content: right;
-  background: linear-gradient(#fff6f6 85%, #a66d76 35%);
+  background-color: #a66d76;
+}
+
+.gallery_cut {
+  height: 40vw;  
+  background: linear-gradient(black 60%, #fff6f6 70%);
+
 }
 
 .RESUME_cut h1 {
   text-align: right;
-  padding-top: 5rem;
   padding-right: 3rem;
   font-size: 8rem;
-  color: yellow;
+  color: #F5DD61;
   letter-spacing: 10px;
 }
 
@@ -333,38 +355,58 @@ section {
 }
 
 .Resume_Bg h1 {
-  padding-top: 3rem;
   padding-right: 3rem;
   font-size: 8rem;
-  color: yellow;
+  text-shadow: 2px 2px 2px #F5DD61;
+  color: black;
   letter-spacing: 10px;
 
 }
 
 .Education {
-    justify-content: left;
+    justify-content: center;
+  
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+.Year {
+  display: flex;
+  flex-direction: row;
+  margin: 1px;
 }
 
 .Education h1 {
-  font: Impact;
-  color: white;
+  
+  color: #F5DD61;
   font-size: 80px;
-  padding: 2rem;
+  padding: 3rem;
 }
+
 
 .Education_Year_p1 {
   color: #fff6f6;
-  font-size: 45px;
-  margin-left: 80px;
-  padding-top: 1rem;
+  font-size: 35px;
+  padding-left: 50px;
 }
 
 .Education_Year_p2 {
   color: #fff6f6;
   font-family: fangsong;
   font-size: 25px;
-  padding-left: 300px;
-  padding-bottom: 2rem;
+  padding-left: 20rem;
+
+}
+
+.Education_Year_p3 {
+  color: #fff6f6;
+  font-family: Playfair Display;
+  font-weight: 700;
+  padding-left:45px;
+  font-size: 45px;
 }
 
 .about_3{
@@ -372,7 +414,7 @@ section {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: #a66d76;
+  background: linear-gradient(#a66d76 40%, black 50%);
 }
 
 .technicalSkill {
@@ -382,18 +424,27 @@ section {
   flex-direction: column;
   height: 25vw;
   width: 450px;
-  background-color: yellow;
+  background-color: #F5DD61;
+}
+
+.context {
+  font-family: Playfair Display;
+  font-size: 25px;
+  font-weight: 700px;
 }
 
 .technicalSkill h1 {
-  
-  font-size: 25px;
+  font-family: Impact;
+  font-size: 30px;
   text-align: center;
+  letter-spacing: 1px;
 }
 
 .technicalSkill p {
+  font-family: fangsong;
   text-align:center;
-  padding: 30px;
+  font-size: 20px;;
+  padding: 15px;
 }
 
 
@@ -402,19 +453,25 @@ section {
   flex-direction: column;
   border-radius: 25px;
   height: 25vw; 
-   width: 450px;
-  background-color: yellow;
+  width: 450px;
+  background-color: #F5DD61;
 }
 
 .languages h1 {
   padding-top: 5rem;
   font-size: 25px;
   text-align: center;
+  font-family: Impact;
+  letter-spacing: 1px;
+
 }
 
 .languages p {
   text-align:center;
-  padding: 25px;
+  font-size: 25px;
+  padding: 20px;
+  font-family: fangsong;
+
 }
 
 
@@ -422,25 +479,33 @@ section {
 #gallery{
   display: flex;
   flex-direction: column;
-  height: 120vh;
+  height: 80vw;
   gap: 3rem;
   background-color: #fff6f6;
   margin-bottom: 0 3rem;
 }
 
+.navGallery {
+  position: static;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff6f6;
+}
 .gallery-text-education h1 {
 
 padding: 5rem;
 text-align: center;
 font-size: 50px;
-color:#a66d76;
+color: black;
 }
 
 .gallery-text-education p {
 
   text-align: center;
   font-size: 25px;
-  color:#a66d76;
+  color: black;
   }
   
 
@@ -448,7 +513,8 @@ color:#a66d76;
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
-  width: 35rem;
+  width: 25rem;
+  height: 25rem;
 }
 
 .galleryEducation:hover {
@@ -456,8 +522,9 @@ color:#a66d76;
 }
 
 .galleryEducation img{
+  object-fit: fill;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .desc {
@@ -465,21 +532,65 @@ color:#a66d76;
   text-align: center;
 }
 
-#extraA {
+.navExtra_a {
+  position: static;
+  height: 100px;
   display: flex;
-  width: 98vh;
-  height: 100vh;
-  justify-content: right;
-  background-color: yellow;
-  z-index: 10;
+  justify-content: space-between;
+  align-items: center;
+  background: #a66d76;
 }
 
-.galleryExtraA {
+.extraA {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #a66d76;
+}
+
+.extraA-text-container {
+  margin: 1rem;
+}
+
+.hobbies-containers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.hobbies-containers p{
+  font-size: 25px;
+  margin:3rem;
+  font-family:Impact;
+  text-align: center;
+  border-radius: 25px;
+  background-color: #aedefc;
+}
+.extraA-text-container h1{
   
+  padding: 2rem;
+  text-align: center;
+  font-size: 50px;
+  font-family: Impact;
+  color: white;
+  letter-spacing: 4px;
+}
+
+.extraA-text-container p {
+  padding: 2rem;
+  text-align: center;
+  font-size: 35px;
+  font-family: Playfir Display;
+  background-color: #F5DD61;
+  border-radius: 25px;
+}
+
+
+.galleryExtraA {
+
   display: flex;
   justify-content: left;
   max-width: 25rem;
-  margin: 0 auto;
   padding: 10px;
 }
 
@@ -492,11 +603,19 @@ color:#a66d76;
   border-radius: 0.5rem;
 }
 
+
 .ExtraA-scroll-container img{
   flex: 1 0 100%;
   scroll-snap-align: start ;
   object-fit: cover;
 }
+
+
+
+
+
+
+
 
 
 

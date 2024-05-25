@@ -63,7 +63,11 @@ Description of the project in details.
 ### Key Components
 - Single Page Website
 - Smooth transition
-- Gallery
+- Floating Elements
+- Clickable Gallery
+- Scrollable Gallery
+- Menu Tab (Hover Effects)
+- Button (Hover Effects)
 
 
 

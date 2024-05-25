@@ -8,7 +8,9 @@
   </head>
   <body>
     <nav>
-      <div class="logo">KLU</div>
+      <div class="logo">
+        <img src="./assets/img/logoTransparent.png" alt="KLU">
+      </div>
 
       <div class="nav-item">
         <a href="#aboutPage">About Me</a>
@@ -17,7 +19,7 @@
       </div>
     </nav>
 
-    <section>
+    <section class="Profile">
       <div id="profile">
         <div class="imageContainer">
           <img src="./assets\img\meWithteddy.jpg" alt="mewithteddy" />
@@ -36,23 +38,27 @@
       </div>
 
       <div class="Scroll_Down">
-        <div class="circle">
-          <p>
-            Scroll <br />
-            down
-          </p>
-        </div>
+        <a href="#aboutPage">
+          <div class="circle">
+            <p>
+              Scroll <br />
+              down
+            </p>
+          </div>
+        </a>
       </div>
     </section>
 
     <section id="aboutPage">
       <nav class="navAboutme">
-        <div class="logo">KLU</div>
-
+        <div class="logoColored">
+          <img src="./assets/img/logo.png" alt="KLU">
+        </div>
+  
         <div class="nav-item">
           <a href="#aboutPage">About Me</a>
           <a href="#gallery">Gallery</a>
-          <a href="#Extra_A">Extracurricular Activities</a>
+          <a href="#extra_A">Extracurricular Activities</a>
         </div>
       </nav>
 
@@ -115,18 +121,30 @@
       <div id="About_2">
         <div class="Education">
           <h1>Education</h1>
-          <p class="Education_Year_p1">2020 - 2022 Chiang Kai Shek College</p>
-          <p class="Education_Year_p2">SHS - STEM</p>
-          <p class="Education_Year_p1">2022 - 2023 University of Santo Tomas</p>
+          <div class="title">           
+            <div class="Year">
+              <p class="Education_Year_p1">2020-2022</p>
+              <p class="Education_Year_p3">Chiang Kai Shek College</p>            
+            </div>
+            <p class="Education_Year_p2">SHS - STEM-IT</p>
+          </div>
+          <div class="title">           
+          <div class="Year">
+            <p class="Education_Year_p1">2022-2023</p>
+            <p class="Education_Year_p3">University of Santo Tomas</p>
+          </div>
           <p class="Education_Year_p2">1st Year - Electronics Engineering</p>
-          <p class="Education_Year_p1">
-            2023 - 2024 Far Eastern University Technology
-          </p>
-          <p class="Education_Year_p2">
-            1s Year - Information Technology specializing in Animation and Game
-            Development
-          </p>
         </div>
+        
+        <div class="title">
+        <div class="Year">
+          <p class="Education_Year_p1">2023-2024</p>
+          <p class="Education_Year_p3">Far Eastern University Technology</p>
+          </div>
+
+          <p class="Education_Year_p2">1st Year - Information Technology specializing in Animation and Game Development</p>
+          </div>
+      </div>
 
         <div class="Resume_Bg">
           <h1>
@@ -139,11 +157,13 @@
 
     <section class="about_3">
       <div class="technicalSkill">
-        <h1>Technical Skills & Application</h1>
+        <h1>Technical Skills</h1>
+        <p class="context"> What language can I code? </p>
+        <p>C++ & HTML</p>
 
-        <p>C++ HTML</p>
-
-        <p>
+        
+          <p class="context"> What software I can use?</p>
+          <p>
           Visual Studio 2019 <br />
           Visual Studio Code
         </p>
@@ -156,13 +176,31 @@
           English <br />
           Chinese <br />
         </p>
+
+        <p class="context"> Good Morning ！, Maganda Hapon！, 晚安！ </p>
+        <p>
+
       </div>
     </section>
 
     <section id="gallery">
+      
+          <nav class="navGallery">
+          <div class="logoColored">
+            <img src="./assets/img/logo.png" alt="KLU">
+          </div>
+    
+  
+          <div class="nav-item">
+            <a href="#aboutPage">About Me</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#extra_A">Extracurricular Activities</a>
+          </div>
+        </nav>
+
       <div class="gallery-text-education">
         <h1>Welcome to my Gallery</h1>
-        <p>As I progress in College, I will compile my works in here</p>
+        <p>As I progress in College, my works will be display here as a gallery</p>
       </div>
       <div class="compileGallery">
         <div class="galleryEducation">
@@ -170,8 +208,8 @@
             <img
               src="./assets/img/wireframeBase.jpg"
               alt="Activity2"
-              width="600"
-              height="400"
+              width="500"
+              height="500"
             />
           </a>
           <div class="desc">Wireframe Activity1</div>
@@ -179,22 +217,64 @@
 
         <div class="galleryEducation">
           <a href="https://u-keziah.github.io/WD-Seatwor-2-TX03/">
-            <img src="./assets/img/resume.JPG" alt="resume" width="600" height="400" />
+            <img
+              src="./assets/img/resume.JPG"
+              alt="resume"
+              width="500"
+              height="500"
+            />
           </a>
-          <div class="desc"> Resume </div>
-        </div>
-
-        </div>
-    </section>
-
-    <section id="extraA">
-      <div class="galleryExtraA">
-        <div class="ExtraA-scroll-container">
-          <img src="assets\img\marinKatigawa1.jpg" alt="marinKatigawa1" />
-          <img src="assets\img\kiraraYawning.jpg" alt="kiraraYawning" />
-          <img src="assets\img\kiraraEdited.jpg" alt="kiraraEdited" />
+          <div class="desc">Resume</div>
         </div>
       </div>
     </section>
+
+
+    <section id="extra_A">
+
+        <nav class="navExtra_a">
+        <div class="logo">
+          <img src="./assets/img/logoTransparent.png" alt="KLU">
+        </div>
+        <div class="nav-item">
+          <a href="#aboutPage">About Me</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#extra_A">Extracurricular Activities</a>
+        </div>
+      </nav>
+
+      <div class="extraA">
+
+        <div class="extraA-text-container">
+          <h1> Extracurricular Activities </h1>
+          <p> As a student who like to explore more activities other than studying <br>
+
+          </div>
+
+          <div class="hobbies-containers">
+            <div class="Cosplay">
+              <p>Cosplayer</p>
+              <div class="galleryExtraA">
+                <div class="ExtraA-scroll-container">
+                  <img src="assets\img\marinKatigawa1.jpg" alt="marinKatigawa1" />
+                  <img src="assets\img\kiraraYawning.jpg" alt="kiraraYawning" />
+                  <img src="assets\img\kiraraEdited.jpg" alt="kiraraEdited" />
+                </div>
+              </div>
+          </div>
+
+          <div class="Shoutcast">
+            <p>Shoutcaster</p>
+            <div class="galleryExtraA">
+              <div class="ExtraA-scroll-container">
+                <img src="./assets/img/casterMe.jpg" alt="meCaster" />
+                <img src="./assets/img/casterGroup.jpg" alt="groupcaster" />
+              </div>
+            </div>
+        </div>
+        </div>
+
+    </section>
+
   </body>
 </html>
